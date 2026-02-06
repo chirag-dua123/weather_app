@@ -1,6 +1,6 @@
 """
 Weather Application using Tkinter GUI
-Fetches current weather and 7-day forecast from OpenWeatherMap API
+Fetches current weather and 5-day forecast from OpenWeatherMap API
 """
 
 import tkinter as tk

@@ -2,6 +2,20 @@
 
 A simple Python GUI application to check current weather and 7-day forecast for any city in the world.
 
+## Project Description
+
+The Weather App is an intuitive desktop application built with Python that provides real-time weather information and forecasts for cities worldwide. Designed with simplicity and usability in mind, this application serves as both a practical weather checking tool and an excellent learning project for Python developers interested in GUI development and API integration.
+
+Built using Python's Tkinter library for the graphical user interface and the OpenWeatherMap API for weather data, this application demonstrates clean code architecture with proper separation of concerns. The codebase is organized into distinct modules: `weather_app.py` handles the GUI and user interactions, while `weather_data.py` manages API communication, data parsing, and input validation. This modular design makes the application maintainable, testable, and easy to understand.
+
+The application features a clean, user-friendly interface that displays weather information in well-formatted tables. Users can search for any city by name and instantly receive current weather conditions including temperature, humidity, wind speed, and weather descriptions. Additionally, the app provides a multi-day forecast with daily maximum and minimum temperatures, allowing users to plan ahead effectively.
+
+What sets this project apart is its robust error handling and input validation. The application gracefully handles various edge cases including invalid city names, network connection issues, missing API keys, and malformed API responses. Users receive clear, informative error messages that help them understand and resolve any issues quickly.
+
+This project is ideal for beginners learning Python programming, as it demonstrates essential concepts including working with external APIs, JSON data parsing, GUI development with Tkinter, exception handling, and project organization. The code follows best practices with clear documentation, descriptive variable names, and modular functions.
+
+Whether you're a student working on a portfolio project, a developer learning API integration, or simply someone who wants a straightforward weather application, this Weather App provides a solid foundation that can be easily extended with additional features such as weather alerts, temperature unit conversion, or location-based search functionality.
+
 ## Features
 
 - 🌍 Search weather by city name
